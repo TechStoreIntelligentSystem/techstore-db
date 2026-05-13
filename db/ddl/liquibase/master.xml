@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <include file="01_init.xml"/>
+    <include file="02_user_module.xml"/>
+    <include file="03_catalog_module.xml"/>
+    <include file="04_product_module.xml"/>
+    <include file="05_inventory_module.xml"/>
+    <include file="06_client_module.xml"/>
+    <include file="07_order_module.xml"/>
+    <include file="08_shipping_module.xml"/>
+    <include file="09_payment_module.xml"/>
+    <include file="10_relations_module.xml"/>
+    <include file="11_coupon_module.xml"/>
+
+</databaseChangeLog>
